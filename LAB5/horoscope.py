@@ -2,8 +2,8 @@ from typing import Final
 from telegram import Update, KeyboardButton, ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN: Final = "*****"
-BOT_USERNAME: Final = "*****"
+TOKEN: Final = "******"
+BOT_USERNAME: Final = "******"
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
