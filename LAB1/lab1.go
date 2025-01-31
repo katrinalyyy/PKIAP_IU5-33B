@@ -87,7 +87,7 @@ func main() {
 
 	xRes := returnX(a, b, c)
 	if len(xRes) > 0 {
-		fmt.Print("Корни уравнения: ")
+		fmt.Print("Корни уравнения:  ")
 		for _, x := range xRes {
 			fmt.Printf("%g ", x)
 		}
