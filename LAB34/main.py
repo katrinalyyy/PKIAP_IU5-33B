@@ -5,6 +5,6 @@ from lab_python_fp.print_result import *
 from lab_python_fp.cm_timer import *
 
 if __name__ == "__main__":
-    print("hello world")
-    print("hello world")
+    print("hello world ")
+    print("hello world ")
     pass
